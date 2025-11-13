@@ -13,7 +13,6 @@ export default function Home() {
       <Quiz />
       <Share
         text={`${title} - ${description} ${process.env.NEXT_PUBLIC_URL}`}
-        url={process.env.NEXT_PUBLIC_URL}
       />
     </main>
   );

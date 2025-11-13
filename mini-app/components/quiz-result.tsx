@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Share from "@/components/share";
 
 type Props = {
@@ -22,7 +21,6 @@ export default function QuizResult({ princess }: Props) {
       <Image src={imageSrc} alt={princess} width={512} height={512} />
       <Share
         text={`I just took the Disney Princess Quiz and I am most like ${princess}! ${process.env.NEXT_PUBLIC_URL}`}
-        url={process.env.NEXT_PUBLIC_URL}
       />
     </div>
   );
