@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import QuizQuestion from "./quiz-question";
 import QuizResult from "./quiz-result";
